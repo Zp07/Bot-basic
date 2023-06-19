@@ -39,8 +39,8 @@ create_course('p2','Curso intensivo de python','01/08/23','250','Camilo zapata')
 
 #This devolve a loop for data bases
 for c in cursos.keys():
-    print(f"Nombre del curso: {cursos[c]['course name']}")
-    print(f"Fecha de inicio: {cursos[c]['star date']}")
+    print(f"Nombre del curso:  ${cursos[c]['course name']}")
+    print(f"Fecha de inicio:  ${cursos[c]['star date']}")
     print(f"Costo: ${cursos[c]['cost']}")
     print("-------"+'\n')
 
